@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fx:id="wall" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="620.0" stroke="BLACK" strokeType="INSIDE" width="980.0" />
+      <TextField fx:id="name" layoutX="417.0" layoutY="335.0" prefHeight="26.0" prefWidth="146.0" promptText="Name" />
+      <TextField fx:id="level" layoutX="416.0" layoutY="390.0" prefHeight="26.0" prefWidth="74.0" promptText="level" />
+      <TextField fx:id="duration" layoutX="490.0" layoutY="390.0" prefHeight="26.0" prefWidth="74.0" promptText="duration" />
+      <TextField fx:id="price" layoutX="416.0" layoutY="416.0" prefHeight="26.0" prefWidth="74.0" promptText="price" />
+      <TextField fx:id="character" layoutX="490.0" layoutY="416.0" prefHeight="26.0" prefWidth="74.0" promptText="character" />
+      <TextField fx:id="ul" layoutX="416.0" layoutY="442.0" prefHeight="26.0" prefWidth="74.0" promptText="upgrade level" />
+      <TextField fx:id="uc" layoutX="490.0" layoutY="442.0" prefHeight="26.0" prefWidth="74.0" promptText="upgrade cost" />
+      <Rectangle fx:id="card" arcHeight="5.0" arcWidth="5.0" fill="#192530" height="150.0" layoutX="438.0" layoutY="137.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" width="100.0" />
+      <Button layoutX="453.0" layoutY="297.0" mnemonicParsing="false" onAction="#pic" text="choose file" />
+      <Button layoutX="25.0" layoutY="26.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button layoutX="452.0" layoutY="484.0" mnemonicParsing="false" onAction="#make" text="Make Card" />
+      <TextField fx:id="damage" layoutX="417.0" layoutY="361.0" prefHeight="26.0" prefWidth="146.0" promptText="damage" />
+   </children>
+</AnchorPane>

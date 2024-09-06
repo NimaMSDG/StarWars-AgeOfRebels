@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fx:id="wall" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="620.0" stroke="BLACK" strokeType="INSIDE" width="980.0" />
+      <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#0000005e" height="492.0" layoutX="123.0" layoutY="64.0" stroke="BLACK" strokeType="INSIDE" width="731.0" />
+      <Line endX="100.0" layoutX="189.0" layoutY="499.0" startX="100.0" startY="-378.0" />
+      <Line endX="100.0" layoutX="289.0" layoutY="499.0" startX="100.0" startY="-378.0" />
+      <Line endX="100.0" layoutX="389.0" layoutY="499.0" startX="100.0" startY="-378.0" />
+      <Line endX="100.0" layoutX="543.0" layoutY="499.0" startX="100.0" startY="-378.0" />
+      <Line endX="100.0" layoutX="659.0" layoutY="499.0" startX="100.0" startY="-378.0" />
+      <Line endX="542.2000122070312" layoutX="269.0" layoutY="189.0" startX="-100.0" stroke="#d9d9d9" strokeWidth="5.0" />
+      <Line endX="542.2000122070312" layoutX="269.0" layoutY="253.0" startX="-100.0" stroke="#d9d9d9" strokeWidth="5.0" />
+      <Line endX="542.2000122070312" layoutX="269.0" layoutY="313.0" startX="-100.0" stroke="#d9d9d9" strokeWidth="5.0" />
+      <Line endX="542.2000122070312" layoutX="269.0" layoutY="371.0" startX="-100.0" stroke="#d9d9d9" strokeWidth="5.0" />
+      <Line endX="542.2000122070312" layoutX="269.0" layoutY="430.0" startX="-100.0" stroke="#d9d9d9" strokeWidth="5.0" />
+      <Button layoutX="31.0" layoutY="28.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button layoutX="547.0" layoutY="519.0" mnemonicParsing="false" onAction="#next" text="Next" />
+      <Button layoutX="380.0" layoutY="519.0" mnemonicParsing="false" onAction="#pre" text="Previous" />
+      <Label layoutX="175.0" layoutY="145.0" prefHeight="18.0" prefWidth="100.0" text="Opponent name   " />
+      <Label layoutX="298.0" layoutY="145.0" text="Opponent level" />
+      <Label layoutX="427.0" layoutY="145.0" text="State" />
+      <Label layoutX="555.0" layoutY="145.0" text="Date" />
+      <Label layoutX="677.0" layoutY="146.0" text="Reward" />
+      <Button layoutX="779.0" layoutY="75.0" mnemonicParsing="false" onAction="#reward" text="reward" />
+      <Button layoutX="730.0" layoutY="75.0" mnemonicParsing="false" onAction="#date" text="date" />
+      <Button layoutX="676.0" layoutY="75.0" mnemonicParsing="false" onAction="#state" text="state" />
+      <Button layoutX="568.0" layoutY="75.0" mnemonicParsing="false" onAction="#level" text="opponent level" />
+      <Button layoutX="454.0" layoutY="75.0" mnemonicParsing="false" onAction="#name" text="opponent name" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fx:id="wall" arcHeight="5.0" arcWidth="5.0" fill="#ef6fef" height="620.0" stroke="BLACK" strokeType="INSIDE" width="980.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2a2f33" height="232.0" layoutY="194.0" stroke="#161c23" strokeType="OUTSIDE" strokeWidth="10.0" width="980.0" />
+      <Line endX="730.9999389648438" layoutX="249.0" layoutY="310.0" startX="-249.00001525878906" />
+      <Rectangle fx:id="p21" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="294.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle fx:id="p22" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="394.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="80.0" />
+      <Rectangle fx:id="p23" arcHeight="5.0" arcWidth="5.0" fill="#1f96ff" height="120.0" layoutX="494.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle fx:id="p24" arcHeight="5.0" arcWidth="5.0" fill="#1f96ff" height="120.0" layoutX="594.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle fx:id="p25" arcHeight="5.0" arcWidth="5.0" fill="#1f96ff" height="120.0" layoutX="694.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle fx:id="p26" arcHeight="5.0" arcWidth="5.0" fill="#1f96ff" height="120.0" layoutX="794.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle fx:id="p11" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="94.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle fx:id="p12" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="194.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle fx:id="p13" arcHeight="5.0" arcWidth="5.0" fill="#1f96ff" height="120.0" layoutX="294.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle fx:id="p14" arcHeight="5.0" arcWidth="5.0" fill="#1f96ff" height="120.0" layoutX="394.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle fx:id="p15" arcHeight="5.0" arcWidth="5.0" fill="#1f96ff" height="120.0" layoutX="494.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle fx:id="p16" arcHeight="5.0" arcWidth="5.0" fill="#1f96ff" height="120.0" layoutX="594.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="29.0" layoutY="591.0" stroke="BLACK" strokeType="INSIDE" width="273.0" />
+      <Polygon layoutX="305.0" layoutY="596.0" points="-55.100006103515625, 24.0, -11.899993896484375, 24.0, -32.000030517578125, -5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="hpl2" arcHeight="5.0" arcWidth="5.0" fill="#58b1ff" height="11.0" layoutX="57.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" width="207.0" />
+      <Label fx:id="hp2" layoutX="14.0" layoutY="592.0" textFill="#58b1ff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="29.0" layoutX="707.0" stroke="BLACK" strokeType="INSIDE" width="273.0" />
+      <Polygon layoutX="741.0" layoutY="5.0" points="-55.100006103515625, 24.0, -11.899993896484375, 24.0, -32.000030517578125, -5.0" rotate="180.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="hpl1" arcHeight="5.0" arcWidth="5.0" fill="#58b1ff" height="11.0" layoutX="714.0" layoutY="9.0" stroke="BLACK" strokeType="INSIDE" width="207.0" />
+      <Label fx:id="hp1" layoutX="934.0" layoutY="1.0" textFill="#58b1ff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Line fx:id="timeline" endX="1.000006914138794" endY="228.00003051757812" fill="#00fbff" layoutY="198.0" startX="1.000006914138794" startY="-4.0" stroke="#4efff0" strokeWidth="5.0" />
+      <ProgressBar fx:id="bar" layoutX="382.0" layoutY="229.0" prefWidth="200.0" progress="0.0" />
+      <Button fx:id="click" layoutX="462.0" layoutY="255.0" mnemonicParsing="false" onAction="#click" text="Click" />
+      <Circle fill="#3d464e" layoutX="966.0" layoutY="442.0" radius="31.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="5.0" />
+      <Circle fill="#3d464e" layoutX="966.0" layoutY="178.0" radius="31.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="5.0" />
+      <Label fx:id="r1" layoutX="952.0" layoutY="161.0">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="r2" layoutX="952.0" layoutY="425.0">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="grey" arcHeight="20.0" arcWidth="20.0" fill="#00000089" height="452.0" layoutX="75.0" layoutY="85.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="837.0" />
+      <Rectangle fx:id="iw" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="161.0" layoutX="256.0" layoutY="168.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="156.0" />
+      <Rectangle fx:id="il" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="161.0" layoutX="582.0" layoutY="168.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="156.0" />
+      <Button fx:id="back" layoutX="440.0" layoutY="484.0" mnemonicParsing="false" onAction="#back" text="Return to menu" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="w" layoutX="235.0" layoutY="94.0" text="WINNER" textFill="#00ff80" visible="false">
+         <font>
+            <Font name="System Bold" size="52.0" />
+         </font>
+      </Label>
+      <Label fx:id="l" layoutX="582.0" layoutY="94.0" text="LOSER" textFill="#ff001e" visible="false">
+         <font>
+            <Font name="System Bold" size="52.0" />
+         </font>
+      </Label>
+      <Label fx:id="rw" layoutX="250.0" layoutY="375.0" text="Reward" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="rl" layoutX="582.0" layoutY="375.0" text="Reward" textFill="WHITE" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="luw" layoutX="250.0" layoutY="425.0" text="LEVEL UP !!!l" textFill="WHITE" visible="false">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="lul" layoutX="582.0" layoutY="425.0" text="LEVEL UP !!!l" textFill="WHITE" visible="false">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="mid" arcHeight="5.0" arcWidth="5.0" fill="#161c23" height="26.0" layoutY="298.0" stroke="BLACK" strokeType="INSIDE" width="980.0" />
+      <Rectangle fx:id="pic2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="48.0" layoutY="459.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="5.0" width="120.0" />
+      <Rectangle fx:id="pic1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="120.0" layoutX="801.0" layoutY="41.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="5.0" width="120.0" />
+   </children>
+</AnchorPane>
